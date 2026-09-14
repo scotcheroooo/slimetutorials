@@ -1,0 +1,4 @@
+ADMIN_PASSWORD=changeme
+GITHUB_TOKEN=
+GITHUB_REPO=yourusername/slime-tutorials
+GITHUB_BRANCH=main

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin — Slime Tutorials</title>
+  <meta name="robots" content="noindex">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div>
+        <a href="/" class="wordmark" style="font-size: 1.4rem;">Slime <span>Tutorials</span></a>
+        <p class="tagline">Admin</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-quiet" id="logoutBtn" hidden>Log out</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="loginPanel" class="panel" style="max-width: 420px;">
+      <div class="field">
+        <label for="password">Admin password</label>
+        <input type="password" id="password" name="password">
+      </div>
+      <button class="btn btn-solid" id="loginBtn">Enter</button>
+      <p class="form-status" id="loginStatus"></p>
+    </section>
+
+    <section id="pendingSection" hidden>
+      <h1 class="entry-title" style="font-size: 1.6rem; margin-top: 32px;">Pending suggestions</h1>
+      <div id="pendingList"></div>
+      <div class="empty-state" id="pendingEmpty" hidden>
+        <h2>Nothing waiting</h2>
+        <p>All caught up. New suggestions will show up here.</p>
+      </div>
+    </section>
+  </main>
+
+  <template id="editFormTemplate">
+    <form class="panel edit-form">
+      <div class="field">
+        <label>Title</label>
+        <input type="text" name="title" required>
+      </div>
+      <div class="field">
+        <label>Cover image URL</label>
+        <input type="url" name="poster" value="/assets/placeholder.svg">
+      </div>
+      <div class="field">
+        <label>Date posted</label>
+        <input type="date" name="datePosted" required>
+      </div>
+      <div class="field">
+        <label>Tags, comma separated</label>
+        <input type="text" name="tags">
+      </div>
+      <div class="field">
+        <label>Link</label>
+        <input type="url" name="link">
+      </div>
+      <div class="field">
+        <label>Description</label>
+        <textarea name="description" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-solid">Publish entry</button>
+      <button type="button" class="btn btn-quiet cancel-edit">Cancel</button>
+      <p class="form-status"></p>
+    </form>
+  </template>
+
+  <script src="/admin.js"></script>
+</body>
+</html>

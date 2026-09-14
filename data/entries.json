@@ -1,0 +1,32 @@
+[
+  {
+    "id": "understudy",
+    "title": "Understudy",
+    "poster": "/assets/placeholder.svg",
+    "datePosted": "2026-06-02",
+    "format": "musical",
+    "tags": ["two act", "original score"],
+    "link": "",
+    "description": "A backstage story about the performer who never gets called on, until the night everything goes wrong at once."
+  },
+  {
+    "id": "foxglove-avenue",
+    "title": "Foxglove Avenue",
+    "poster": "/assets/placeholder.svg",
+    "datePosted": "2026-05-20",
+    "format": "musical",
+    "tags": ["one act", "jukebox"],
+    "link": "",
+    "description": "A block of rowhouses over one long summer, told through the songs playing out of open windows."
+  },
+  {
+    "id": "ferrymans-season",
+    "title": "Ferryman's Season",
+    "poster": "/assets/placeholder.svg",
+    "datePosted": "2026-04-11",
+    "format": "musical",
+    "tags": ["two act", "folk score"],
+    "link": "",
+    "description": "A small river town musical about the last ferry operator before the new bridge opens."
+  }
+]

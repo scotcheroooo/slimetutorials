@@ -1,0 +1,11 @@
+{
+  "name": "slime-tutorials",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "wrangler pages dev . --kv=SUBMISSIONS --port=8788 --compatibility-date=2024-09-01"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
