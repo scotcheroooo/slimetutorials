@@ -48,7 +48,7 @@ function renderPending(submissions) {
       <img class="pending-poster" src="${sub.poster || "/assets/placeholder.svg"}" alt="">
       <div>
         <p class="pending-title">${sub.title}</p>
-        <p class="pending-meta">${sub.format || "unknown format"} — submitted by ${sub.submittedBy || "anonymous"}</p>
+        <p class="pending-meta">${sub.format || "unknown format"} submitted by ${sub.submittedBy || "anonymous"}</p>
         <p class="pending-meta">${sub.notes || ""}</p>
       </div>
       <div class="pending-actions">

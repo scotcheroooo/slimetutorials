@@ -8,7 +8,7 @@ function formatDate(isoDate) {
 }
 
 function renderEntry(entry) {
-  document.title = `${entry.title} — Slime Tutorials`;
+  document.title = `${entry.title} | Slime Tutorials`;
 
   root.innerHTML = `
     <div class="entry-layout">

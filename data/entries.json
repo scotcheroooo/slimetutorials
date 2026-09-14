@@ -1,32 +1,32 @@
 [
   {
-    "id": "understudy",
-    "title": "Understudy",
+    "id": "placeholder-1",
+    "title": "Placeholder 1",
     "poster": "/assets/placeholder.svg",
     "datePosted": "2026-06-02",
     "format": "musical",
-    "tags": ["two act", "original score"],
+    "tags": ["tag one", "tag two"],
     "link": "",
-    "description": "A backstage story about the performer who never gets called on, until the night everything goes wrong at once."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    "id": "foxglove-avenue",
-    "title": "Foxglove Avenue",
+    "id": "placeholder-2",
+    "title": "Placeholder 2",
     "poster": "/assets/placeholder.svg",
     "datePosted": "2026-05-20",
     "format": "musical",
-    "tags": ["one act", "jukebox"],
+    "tags": ["tag one", "tag two"],
     "link": "",
-    "description": "A block of rowhouses over one long summer, told through the songs playing out of open windows."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    "id": "ferrymans-season",
-    "title": "Ferryman's Season",
+    "id": "placeholder-3",
+    "title": "Placeholder 3",
     "poster": "/assets/placeholder.svg",
     "datePosted": "2026-04-11",
     "format": "musical",
-    "tags": ["two act", "folk score"],
+    "tags": ["tag one", "tag two"],
     "link": "",
-    "description": "A small river town musical about the last ferry operator before the new bridge opens."
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 ]
